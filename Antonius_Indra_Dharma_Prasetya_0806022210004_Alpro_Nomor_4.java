@@ -11,7 +11,7 @@ public class Antonius_Indra_Dharma_Prasetya_0806022210004_Alpro_Nomor_4 {
         int Jam = input.nextInt();
         
         if (Jam > 40){
-            GajiKotor = (float) (Jam * 6 * 1.5);
+            GajiKotor = (float) ((40 * 6) + ((Jam-40) * 6 * 1.5));
         } else {
             GajiKotor = (float) (Jam * 6);
         }
