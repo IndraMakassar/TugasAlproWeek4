@@ -1,4 +1,4 @@
-import.java.util.Scanner;
+import java.util.Scanner;
 
 public class Antonius_Indra_Dharma_Prasetya_0806022210004_Alpro_Nomor_3 {
 
