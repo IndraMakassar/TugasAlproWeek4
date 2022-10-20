@@ -8,7 +8,11 @@ public class Antonius_Indra_Dharma_Prasetya_0806022210004_alpro_Nomor_2 {
         System.out.print("Nilai : ");
         float N = input.nextFloat();
 
-        
+        if (N >= 75){
+            System.out.println("Lulus");
+        } else {
+            System.out.println("Tidak Lulus");
+        }
 
     }
 }
