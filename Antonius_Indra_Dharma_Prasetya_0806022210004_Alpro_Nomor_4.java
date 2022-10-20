@@ -16,7 +16,7 @@ public class Antonius_Indra_Dharma_Prasetya_0806022210004_Alpro_Nomor_4 {
             GajiKotor = (float) (Jam * 6);
         }
         
-        if (GajiKotor >= 250){
+        if (GajiKotor > 250){
             Pajak = GajiKotor * 12/100;
         } else {
             Pajak = GajiKotor * 10/100;
