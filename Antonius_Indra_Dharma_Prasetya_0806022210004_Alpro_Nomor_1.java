@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Antonius_Indra_Dharma_Prasetya_0806022210004_alpro_Nomor_1 {
+public class Antonius_Indra_Dharma_Prasetya_0806022210004_Alpro_Nomor_1 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Antonius_Indra_Dharma_Prasetya_0806022210004_alpro_Nomor_1 {
         if (Konversi.equalsIgnoreCase("K")){
             System.out.println("Suhu Kelvin : " + (Celcius + 273.15));
         } else if (Konversi.equalsIgnoreCase("F")){
-            System.out.println("Suhu Fahrenheit : " + ((Celcius*9/5)+32));
+            System.out.println("Suhu Fahrenheit : " + ((Celcius * 9 / 5) + 32));
         } else if (Konversi.equalsIgnoreCase("R")){
             System.out.println("Suhu Reamur : " + Celcius*0.8);
         }
