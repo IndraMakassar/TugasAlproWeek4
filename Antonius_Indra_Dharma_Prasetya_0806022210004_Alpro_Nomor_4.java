@@ -10,7 +10,7 @@ public class Antonius_Indra_Dharma_Prasetya_0806022210004_Alpro_Nomor_4 {
         System.out.print("Total jam kerja : ");
         int Jam = input.nextInt();
         
-        if (Jam >= 40){
+        if (Jam > 40){
             GajiKotor = (float) (Jam * 6 * 1.5);
         } else {
             GajiKotor = (float) (Jam * 6);
